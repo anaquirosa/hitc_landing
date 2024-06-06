@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F6EDE7;
+}
+
+.name {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.name img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    margin-left: 12rem;
+    margin-top: 15rem;
+}
+
+.section a, p {
+    font-size: 10vh;
+    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+    font-family: Gliker, sans-serif;
+    color: #004AAD;
+    text-decoration: none;
+}
+
+.youtube:hover, .medium:hover, .discord:hover, .aboutus:hover {
+    font-size: 10vh;
+    color: transparent;
+    -webkit-text-stroke: 1px #df5e22;
+
+}
+
+.bi {
+    padding-top: 40px;
+    padding-right: 10px;
+    color: #df5e22;
+}
+
+
+@media screen and (max-width:767px) {
+    .section {
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+
+    .section a {
+        margin-bottom: 1rem; /* Agregar margen inferior */
+        display: block; /* Convertir los enlaces en bloques */
+    }
+
+    .section p {
+        margin-bottom: 6rem; /* Agregar margen inferior */
+    }
+
+    .section a, .section p {
+        font-size: 6vh;
+        font-family: Gliker, sans-serif;
+        color: #004AAD;
+    } 
+
+    .name {
+        display: flex;
+        justify-content: flex-end; /* Alinear al final horizontalmente */
+        align-items: flex-end; /* Alinear al final verticalmente */
+        position: fixed; /* Posición fija para que esté pegado al borde */
+        bottom: 0; /* Alinear al borde inferior de la ventana */
+        right: 0; /* Alinear al borde derecho de la ventana */
+        width: 50%; /* Tamaño del contenedor del 50% del ancho de la ventana */
+        height: 40%; /* Tamaño del contenedor del 50% de la altura de la ventana */
+    }
+
+    .name img {
+        max-width: 100%; /* La imagen no debe exceder el tamaño del contenedor */
+        max-height: 100%; /* La imagen no debe exceder el tamaño del contenedor */
+        width: auto; /* Ajustar automáticamente el ancho */
+        height: auto; /* Ajustar automáticamente la altura */
+    }
+
+    .youtube:hover, .medium:hover, .discord:hover, .aboutus:hover {
+        font-size: 6vh;
+        color: transparent;
+        -webkit-text-stroke: 1px #df5e22;
+    }
+
+    .bi {
+        padding-top: 160px;
+    }
+}
+
+
+
+
+
