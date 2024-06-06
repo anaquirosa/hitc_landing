@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Gliker';
+    src: url(font/Gliker-Regular.ttf);
+}
+
 body, html {
     margin: 0;
     padding: 0;
