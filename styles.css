@@ -87,7 +87,7 @@ body, html {
         bottom: 0; /* Alinear al borde inferior de la ventana */
         right: 0; /* Alinear al borde derecho de la ventana */
         width: 50%; /* Tamaño del contenedor del 50% del ancho de la ventana */
-        height: 40%; /* Tamaño del contenedor del 50% de la altura de la ventana */
+        height: 50%; /* Tamaño del contenedor del 50% de la altura de la ventana */
     }
 
     .name img {
